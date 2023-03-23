@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_most_numbers
- * Return: 0
+ * print_most_numbers - prints numbers
+ * Return:0
  */
 void print_most_numbers(void)
 {
-	char n = ;
+	char n = 0;
 
-	while ( x <= 9)
+	while (x <= 9)
 	{
 	if (n != 2 && n != 4)
 	{
