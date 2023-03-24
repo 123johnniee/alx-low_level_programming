@@ -3,6 +3,7 @@
  * positive_or_negative - checks for positive or negative numbers
  * @i: the number to be checked
  * Return: always 1
+ */
 
 void positive_or_negative(int i)
 {
