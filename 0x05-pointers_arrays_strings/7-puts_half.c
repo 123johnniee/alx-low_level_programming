@@ -4,10 +4,10 @@
  * @str: The string to print
  * Return: void
  */
-int puts_half(char *str)
+void puts_half(char *str)
 {
 	int j = 0;
-	ink k;
+	int k;
 
 	while (str[j] != '\0')
 	{
@@ -22,7 +22,6 @@ int puts_half(char *str)
 	{
 	k = j / 2;
 	}
-
 	for (; k < j; k++)
 	{
 	_putchar(str[k]);
