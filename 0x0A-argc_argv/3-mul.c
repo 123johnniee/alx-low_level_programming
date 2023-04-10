@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - rints the multiplication of two ards numbers
  * @argc: argument count
