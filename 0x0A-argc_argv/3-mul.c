@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Prints all the args content
+ * main - rints the multiplication of two ards numbers
  * @argc: argument count
  * @argv: argument vector
  * Return: Always zero
