@@ -19,7 +19,7 @@ if (new_node == NULL)
 new_node->str = strdup(str);
 for (n = 0; str[n]; n++)
 	;
-new_node-> len = n;
+new_node->len = n;
 new_node->next = NULL;
 current_node = *head;
 if (current_node == NULL)
@@ -32,5 +32,5 @@ while (current_node->next != NULL)
 current_node = current_node->next;
 current_node = new_node;
 }
-return(*head);
+return (*head);
 }
